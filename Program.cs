@@ -10,11 +10,14 @@ namespace Exercise2
             int age;
             int height;
             //Max Heart rate is equal to 220 - age
+            int maxHeartRate;
 
             age = 25;
             height = 72;
+            maxHeartRate = 220 - age;
 
-            Console.WriteLine("I am 25 years old, my max heart is 195 and I am 72 inches tall.");
+            Console.WriteLine("I am " + age + " years old, my max heart is " +  maxHeartRate + " and I am " + height +
+                " inches tall.");
             Console.ReadLine();
         }
     }
